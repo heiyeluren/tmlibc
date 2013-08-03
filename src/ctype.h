@@ -1,0 +1,36 @@
+/**
+ * Tima Standard ANSI C based Library
+ *
+ * Copyright (C) 2008 heiyeluren. All rights reserved.
+ *
+ * Open-source ANSI C library powered by  TieMa(TIMA) Studio.
+ *  
+ * Use and distribution licensed under the BSD license.  See
+ * the LICENSE file for full text.
+ *
+ * To learn more open-source code, http://heiyeluren.googlecode.com
+ * My blog: http://blog.csdn.net/heiyeshuwu
+ *
+ * $Id: ctype.c 2008-11-09 01:06 heiyeluren $
+ */
+
+/**
+ * ctype function define
+ */
+int isalnum(int c);
+int isalpha(int c);
+int isascii(int c);
+int isblank(int c);
+int iscntrl(int c);
+int isdigit(int c);
+int isgraph(int c);
+int islower(int c);
+int isprint(int c);
+int ispunct(int c);
+int isspace(int c);
+int isupper(int c);
+int isxdigit(int c);
+int toascii(int c);
+int tolower(int c);
+int toupper(int c);
+
